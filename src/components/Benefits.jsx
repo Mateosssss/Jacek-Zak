@@ -45,14 +45,13 @@ const Benefits = () => {
         <div className="benefits-card consultation-card">
           <h2>BEZPŁATNA KONSULTACJA – ZACZNIJ JUŻ DZIŚ!</h2>
           <div className="consultation-content">
-            <p>Skorzystaj z bezpłatnej, niezobowiązującej konsultacji.</p>
-            <div className="consultation-cta">
-              <p>Jak się zapisać? To proste!</p>
-              <button className="btn">
-                KONSULTACJA
-                <span className="btn-icon">→</span>
-              </button>
-            </div>
+            <p>Umów się na bezpłatną konsultację i rozpocznij swoją drogę do finansowej niezależności.</p>
+          </div>
+          <div className="consultation-cta">
+            <a href="#contact" className="cta-button">
+              KONSULTACJA
+              <span className="button-arrow">→</span>
+            </a>
           </div>
         </div>
       </div>

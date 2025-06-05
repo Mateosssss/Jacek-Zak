@@ -9,8 +9,8 @@ const Hero = () => {
       </div>
       <div className="container hero-container">
         <div className="hero-content">
-          <h1 className="hero-title">
-            BEZPŁATNA
+          <h1>
+            BEZPŁATNA{' '}
             <span className="highlight">KONSULTACJA</span>
           </h1>
           <p className="hero-subtitle">
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <div className="hero-cta">
             <a href="#contact" className="cta-button">
-              Umów konsultację
+              Umów Spotkanie
               <span className="button-arrow">→</span>
             </a>
           </div>
