@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="#about" className="navbar-link">O Mnie</a>
           <a href="#testimonials" className="navbar-link">Referencje</a>
           <a href="#contact" className="navbar-link">Kontakt</a>
-          <a href="#consultation" className="navbar-button">
+          <a href="#contact" className="navbar-button">
             Darmowa Konsultacja
             <span className="button-arrow">→</span>
           </a>

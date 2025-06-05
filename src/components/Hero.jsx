@@ -17,7 +17,7 @@ const Hero = () => {
             Jak z niej skorzystać i w czym może Ci pomóc?
           </p>
           <div className="hero-cta">
-            <a href="#consultation" className="cta-button">
+            <a href="#contact" className="cta-button">
               Umów konsultację
               <span className="button-arrow">→</span>
             </a>
