@@ -1,0 +1,30 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+main {
+  padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+/* Ensure smooth scrolling for the entire app */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Prevent content shift on modal open */
+body.modal-open {
+  overflow: hidden;
+  padding-right: 15px; /* Adjust based on your scrollbar width */
+} 
